@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/last/USD-BRL",
+    "headers": {}
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "USDBRL": {
+        "code": "USD",
+        "codein": "BRL",
+        "name": "Dólar Americano/Real Brasileiro",
+        "high": "4.9348",
+        "low": "4.8649",
+        "varBid": "0.045",
+        "pctChange": "0.92",
+        "bid": "4.933",
+        "ask": "4.935",
+        "timestamp": "1693490645",
+        "create_date": "2023-08-31 11:04:05"
+      }
+    }
+  }
+}
