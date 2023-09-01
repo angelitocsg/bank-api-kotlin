@@ -29,6 +29,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'com.fasterxml.jackson.module:jackson-module-kotlin'
     implementation 'org.jetbrains.kotlin:kotlin-reflect'
+    // AWS S3
+    implementation("aws.sdk.kotlin:s3:0.25.0-beta")
     // Open API
     implementation 'org.springdoc:springdoc-openapi-ui:1.7.0'
     runtimeOnly 'com.h2database:h2'
